@@ -176,6 +176,7 @@ http://image.blueskykong.com/secret-qiniu.jpg
 ## 总结
 一个小工具的分享，适合在mac下用markdown写作的小伙伴，减轻一些繁琐的操作。目前来说，能满足笔者的需求，也没啥高端的地方。如果大家有改进或者更好的工具，记得留言分享。当然，如果有不清楚的地方，可以参考git项目https://github.com/keets2012/Sync-Pic.git。
 
+七牛云注册地址： https://portal.qiniu.com/signup?code=3lffq8tzqxc9e
 #### 订阅最新文章，欢迎关注我的公众号
 
 ![微信公众号](http://ovci9bs39.bkt.clouddn.com/qrcode_for_gh_ca56415d4966_430.jpg)
