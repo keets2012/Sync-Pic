@@ -8,7 +8,7 @@ from optparse import OptionParser
 
 def watermark_add(filename):
 	#要上传的空间
-	bucket_name = 'bl-bucket'
+	bucket_name = 'bucket'
 
 	#上传到七牛后保存的文件名
 	arr = filename.split("/")
@@ -24,8 +24,8 @@ def watermark_add(filename):
 
 	fops = fops+'|saveas/'+saveas_key
 
-	access_key = '93lqZSG8ooeOgpUYdQIUDlTthFZV-BjYlUWhy7yM'
-	secret_key = 'Y-1vg2rvQYiwFDMGvgnkP3jmn-0UfJ-dGZBWwe_-'
+	access_key = 'key'
+	secret_key = 'secret'
 
 	#构建鉴权对象
 	q = Auth(access_key, secret_key)
@@ -53,14 +53,14 @@ def upload_pic(filename):
 	# (opts, args) = parser.parse_args()
 
 	#需要填写你的 Access Key 和 Secret Key
-	access_key = '93lqZSG8ooeOgpUYdQIUDlTthFZV-BjYlUWhy7yM'
-	secret_key = 'Y-1vg2rvQYiwFDMGvgnkP3jmn-0UfJ-dGZBWwe_-'
+	access_key = 'key'
+	secret_key = 'secret'
 
 	#构建鉴权对象
 	q = Auth(access_key, secret_key)
 
 	#要上传的空间
-	bucket_name = 'bl-bucket'
+	bucket_name = 'bucket'
 
 	#上传到七牛后保存的文件名
 	arr = filename.split("/")
